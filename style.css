@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(6, 6, 247);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: aqua;
+    padding: 20px 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#display{
+    font-size: 25px;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.buttons{
+    font-size: 15px;
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+button{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
